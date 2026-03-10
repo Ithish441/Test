@@ -1,0 +1,41 @@
+{
+  "name": "clinical-vision-platform",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "typecheck": "tsc --noEmit",
+    "capacitor:sync": "npx cap sync",
+    "capacitor:open:ios": "npx cap open ios",
+    "capacitor:open:android": "npx cap open android"
+  },
+  "dependencies": {
+    "next": "^15.1.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "@capacitor/core": "^6.1.2",
+    "@capacitor/cli": "^6.1.2",
+    "@capacitor/app": "^6.0.1",
+    "@capacitor/haptics": "^6.0.1",
+    "@capacitor/keyboard": "^6.0.2",
+    "@mediapipe/tasks-vision": "^0.10.22",
+    "framer-motion": "^11.15.0",
+    "lucide-react": "^0.469.0",
+    "@supabase/supabase-js": "^2.47.10",
+    "react-pdf": "^9.2.1",
+    "pdfjs-dist": "^4.9.155"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "@types/react": "^19.0.1",
+    "@types/react-dom": "^19.0.1",
+    "typescript": "^5.7.2",
+    "eslint": "^9.17.0",
+    "eslint-config-next": "^15.1.0",
+    "@capacitor/android": "^6.1.2",
+    "@capacitor/ios": "^6.1.2"
+  }
+}

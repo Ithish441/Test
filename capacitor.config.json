@@ -1,0 +1,21 @@
+{
+  "appId": "com.clinicalvision.platform",
+  "appName": "ClinicalVision",
+  "webDir": ".next",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "plugins": {},
+  "ios": {
+    "scheme": "ClinicalVision",
+    "cordovaSwiftVersion": "5.0",
+    "minVersion": "13.0"
+  },
+  "android": {
+    "minSdkVersion": 24,
+    "targetSdkVersion": 34,
+    "compileSdkVersion": 34
+  },
+  "server": {
+    "androidScheme": "https"
+  }
+}
